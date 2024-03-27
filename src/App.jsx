@@ -12,9 +12,9 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/sign-in' element={<SignIn />} />
-        <Route path='/sign-up' element={<SignUp />} />
-        <Route path='/search' element={<Search />} />
+        <Route path='/login' element={<SignIn />} />
+        <Route path='/registrar' element={<SignUp />} />
+        <Route path='/pesquisar' element={<Search />} />
       </Routes>
       <Footer />
     </BrowserRouter>
