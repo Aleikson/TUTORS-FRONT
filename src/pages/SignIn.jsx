@@ -8,6 +8,7 @@ import {
 } from "../redux/user/userSlice";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
+import OAuth from "../components/OAuth";
 
 export const SignIn = () => {
   const [formData, setFormData] = useState({});
@@ -79,6 +80,7 @@ export const SignIn = () => {
             >
               Entrar
             </Button>
+            <OAuth />
           </form>
           <div className="flex gap-2 text-sm mt-5">
             <span>Não tem registro?</span>
